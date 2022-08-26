@@ -6,4 +6,4 @@ if (a === 2) {
   a++
   return 'N'
 }
-console.log('yhl')
+console.log('main')
