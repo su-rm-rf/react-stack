@@ -6,3 +6,4 @@ if (a === 2) {
   a++
   return 'N'
 }
+console.log('nba')
