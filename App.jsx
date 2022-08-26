@@ -1,6 +1,8 @@
 // console.log('app..');
-if (1===2) {
-  return 'N'
-} else {
+let a = 0
+if (a === 2) {
   return 'Y'
+} else {
+  a++
+  return 'N'
 }
