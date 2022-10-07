@@ -10,11 +10,16 @@ JSX：类似XML的写法
 # 工具链
   https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658
 
+
+# setState
+
 # diff算法
 
 # 虚拟DOM
 
 # hook
+
+# useState
 
 # useEffect
 
@@ -22,6 +27,28 @@ JSX：类似XML的写法
 
 # fiber
 
+# 类组件 VS 函数式组件
+
 # Redux
+  作用：集中式管理应用中多个组件共享的状态
+  Store, Reducers, Action Creators, UI Components
+    UI Components -> eventHandle -> 
+    Action Creators -> dispatch(action{type,data}) -> Store
+    Store -> (oldState, action) -> Reducers -> newState
+    UI Components -> subscribe{getStore}
+  Action: 
+    异步Action: 
+  Reducer: 
+  Store: 
+  
   https://www.baidu.com/s?wd=Redux对比Mobx
+
+# React-Redux
+  容器组件Provider：
+    与redux通信，将结果交给UI组件
+    通过props向UI组件传递：redux中保存的状态、操作状态的方法
+  hook
+    useSelector
+    useDispatch
+  mapStateToProps
 

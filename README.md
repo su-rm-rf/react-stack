@@ -12,6 +12,10 @@
 # 搭建
   搭建Webpack运行环境
   集成React
+  集成Babel
+  集成CSS预处理
+  集成Redux
+
 
 # 业务TODO
 人员管理系统CRUD
